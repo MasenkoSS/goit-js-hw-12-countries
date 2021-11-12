@@ -2732,7 +2732,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../node_modules/@pnotify/core/dist/BrightTheme.css":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../node_modules/@pnotify/core/dist/PNotify.css":[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -2788,7 +2788,7 @@ var _lodash = _interopRequireDefault(require("lodash.debounce"));
 
 var _core = require("@pnotify/core");
 
-require("@pnotify/core/dist/BrightTheme.css");
+require("@pnotify/core/dist/PNotify.css");
 
 var _getRefs = _interopRequireDefault(require("./getRefs.js"));
 
@@ -2846,7 +2846,7 @@ function onError(message) {
     sticker: false
   });
 }
-},{"../catalog/state.hbs":"catalog/state.hbs","../catalog/statelist.hbs":"catalog/statelist.hbs","lodash.debounce":"../node_modules/lodash.debounce/index.js","@pnotify/core":"../node_modules/@pnotify/core/dist/PNotify.js","@pnotify/core/dist/BrightTheme.css":"../node_modules/@pnotify/core/dist/BrightTheme.css","./getRefs.js":"js/getRefs.js","../js/fetchCountries.js":"js/fetchCountries.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../catalog/state.hbs":"catalog/state.hbs","../catalog/statelist.hbs":"catalog/statelist.hbs","lodash.debounce":"../node_modules/lodash.debounce/index.js","@pnotify/core":"../node_modules/@pnotify/core/dist/PNotify.js","@pnotify/core/dist/PNotify.css":"../node_modules/@pnotify/core/dist/PNotify.css","./getRefs.js":"js/getRefs.js","../js/fetchCountries.js":"js/fetchCountries.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -2874,7 +2874,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50736" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64191" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

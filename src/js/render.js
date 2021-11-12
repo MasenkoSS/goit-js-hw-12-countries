@@ -3,7 +3,7 @@ import countryList from '../catalog/statelist.hbs';
 import debounce from 'lodash.debounce';
 
 import { error, defaultModules } from '@pnotify/core';
-import '@pnotify/core/dist/BrightTheme.css';
+import '@pnotify/core/dist/PNotify.css';
 
 import getRefs from './getRefs.js';
 import API from '../js/fetchCountries.js';
