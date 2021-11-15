@@ -12,11 +12,11 @@ const refs = getRefs();
 
 refs.searchField.addEventListener('input', debounce(onSearch, 1000));
 
-
-
 function onSearch(event) {
+    event.preventDefault();
     console.log(event.target.value);
-    const searchKey = event.target.value;
+    const searchKey = event.target.value.trim()
+    if (!searchKey) return;
     API.fetchOneCountry(searchKey).then(render);
 }
 

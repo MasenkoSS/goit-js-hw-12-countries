@@ -2155,7 +2155,7 @@ const templateFunction = _handlebars.default.template({
       return undefined;
     };
 
-    return "                    <ul>\r\n                        <li class=\"language\">" + container.escapeExpression((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : container.hooks.helperMissing, typeof helper === "function" ? helper.call(depth0 != null ? depth0 : container.nullContext || {}, {
+    return "                    <ul>\r\n                        <li class='language'>" + container.escapeExpression((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : container.hooks.helperMissing, typeof helper === "function" ? helper.call(depth0 != null ? depth0 : container.nullContext || {}, {
       "name": "name",
       "hash": {},
       "data": data,
@@ -2184,7 +2184,7 @@ const templateFunction = _handlebars.default.template({
       return undefined;
     };
 
-    return "        <h2 class=\"country-name\">" + alias2(alias1((stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "name") : stack1, depth0)) + "</h2>\r\n    <div class=\"card-container\">\r\n        <div class=\"country-data-body\">\r\n        <ul class=\"country-data-list\">\r\n            <li class=\"country-data-item\">\r\n                <h3>Capital:</h3>\r\n                <span class=\"value\">" + alias2(alias1((stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "capital") : stack1, depth0)) + "</span>\r\n            </li>\r\n            <li class=\"country-data-item\">\r\n                <h3>Population:</h3>\r\n                <span class=\"value\">" + alias2(alias1((stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "population") : stack1, depth0)) + "</span>\r\n            </li>\r\n            <li class=\"country-data-item\">\r\n                <h3>Languages:</h3>\r\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "languages") : stack1, {
+    return "<h2 class='country-name'>" + alias2(alias1((stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "name") : stack1, depth0)) + "</h2>\r\n<div class='card-container'>\r\n    <div class='country-data-body'>\r\n        <ul class='country-data-list'>\r\n            <li class='country-data-item'>\r\n                <h3>Capital:</h3>\r\n                <span class='value'>" + alias2(alias1((stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "capital") : stack1, depth0)) + "</span>\r\n            </li>\r\n            <li class='country-data-item'>\r\n                <h3>Population:</h3>\r\n                <span class='value'>" + alias2(alias1((stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "population") : stack1, depth0)) + "</span>\r\n            </li>\r\n            <li class='country-data-item'>\r\n                <h3>Languages:</h3>\r\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "languages") : stack1, {
       "name": "each",
       "hash": {},
       "fn": container.program(1, data, 0),
@@ -2193,14 +2193,14 @@ const templateFunction = _handlebars.default.template({
       "loc": {
         "start": {
           "line": 15,
-          "column": 20
+          "column": 16
         },
         "end": {
           "line": 19,
-          "column": 29
+          "column": 25
         }
       }
-    })) != null ? stack1 : "") + "            </li>\r\n        </ul>\r\n    </div>\r\n    <div>\r\n        <img src=\"" + alias2(alias1((stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "flags") : stack1) != null ? lookupProperty(stack1, "png") : stack1, depth0)) + "\" alt=\"flag\" class=\"country-flag\">\r\n    </div>\r\n    </div>";
+    })) != null ? stack1 : "") + "            </li>\r\n        </ul>\r\n    </div>\r\n    <div>\r\n        <img src='" + alias2(alias1((stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "0") : depth0) != null ? lookupProperty(stack1, "flags") : stack1) != null ? lookupProperty(stack1, "png") : stack1, depth0)) + "' alt='flag' class='country-flag' />\r\n    </div>\r\n</div>";
   },
   "useData": true
 });
@@ -2230,21 +2230,21 @@ const templateFunction = _handlebars.default.template({
       return undefined;
     };
 
-    return "<ul>\r\n    <li class=\"country-name-list\">" + container.escapeExpression((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : container.hooks.helperMissing, typeof helper === "function" ? helper.call(depth0 != null ? depth0 : container.nullContext || {}, {
+    return "    <ul>\r\n        <li class='country-name-list'>" + container.escapeExpression((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : container.hooks.helperMissing, typeof helper === "function" ? helper.call(depth0 != null ? depth0 : container.nullContext || {}, {
       "name": "name",
       "hash": {},
       "data": data,
       "loc": {
         "start": {
           "line": 3,
-          "column": 34
+          "column": 38
         },
         "end": {
           "line": 3,
-          "column": 42
+          "column": 46
         }
       }
-    }) : helper)) + "</li>\r\n</ul>\r\n";
+    }) : helper)) + "</li>\r\n    </ul>\r\n";
   },
   "compiler": [8, ">= 4.3.0"],
   "main": function (container, depth0, helpers, partials, data) {
@@ -2797,16 +2797,16 @@ var _fetchCountries = _interopRequireDefault(require("../js/fetchCountries.js"))
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const refs = (0, _getRefs.default)();
-refs.searchField.addEventListener('input', (0, _lodash.default)(onSearch, 2500));
+refs.searchField.addEventListener('input', (0, _lodash.default)(onSearch, 1000));
 
 function onSearch(event) {
+  event.preventDefault();
   console.log(event.target.value);
-  const searchKey = event.target.value;
+  const searchKey = event.target.value.trim();
+  if (!searchKey) return;
 
   _fetchCountries.default.fetchOneCountry(searchKey).then(render);
 }
-
-;
 
 function renderCountryCard(country) {
   const markup = (0, _state.default)(country);
@@ -2874,7 +2874,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60264" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57608" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
