@@ -1,94 +1,94 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
-  color: #2a2a2a;
-  background: linear-gradient(270deg, rgb(31, 119, 235), rgb(243, 247, 4));
+    color: #2a2a2a;
+    background: linear-gradient(270deg, rgb(31, 119, 235), rgb(243, 247, 4));
 }
 h1,
 h2,
 h3,
 p,
 ul {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 input {
-  display: block;
-  margin: 60px auto;
-  padding: 14px;
-  width: 300px;
-  border: 2mm inset rgba(117, 190, 218, 0.5);
+    display: block;
+    margin: 60px auto;
+    padding: 14px;
+    width: 300px;
+    border: 2mm inset rgba(117, 190, 218, 0.5);
 }
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card-container {
-  width: 600px;
-  margin: 50px auto;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 .country-name {
-  margin-bottom: 40px;
-  text-align: center;
+    margin-bottom: 40px;
+    text-align: center;
 }
 .country-data-body {
-  margin-right: auto;
-  margin-bottom: 15px;
-  padding: 0;
-  text-align: left;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: left;
 }
 .country-name-list {
-  margin-left: 300px;
-  padding-top: 15px;
-  text-align: left;
-  cursor: pointer;
+    margin-left: 300px;
+    padding-top: 15px;
+    text-align: left;
+    cursor: pointer;
 }
 .country-data-item {
-  margin-top: 0;
-  margin-bottom: 34px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+    margin-top: 0;
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .country-flag {
-  list-style: none;
+    list-style: none;
 }
 
 .languages {
-  flex-direction: column;
+    flex-direction: column;
 }
 .languages > ul {
-  list-style: none;
+    list-style: none;
 }
 .language {
-  margin-left: 10px;
-  margin-bottom: 5px;
-  display: flex;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    display: flex;
 }
 
 .value {
-  margin-left: 10px;
-  }
+    margin-left: 10px;
+}
 
 .title {
-  font-size: 30px;
-  margin-top: 40px;
-  text-align: center;
-  }
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
 
 ::placeholder {
     color: gray;
     font-size: 1.2em;
     text-align: center;
-  }
+}

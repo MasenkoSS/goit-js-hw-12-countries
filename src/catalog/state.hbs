@@ -1,26 +1,26 @@
-        <h2 class="country-name">{{ 0.name }}</h2>
-    <div class="card-container">
-        <div class="country-data-body">
-        <ul class="country-data-list">
-            <li class="country-data-item">
+<h2 class='country-name'>{{0.name}}</h2>
+<div class='card-container'>
+    <div class='country-data-body'>
+        <ul class='country-data-list'>
+            <li class='country-data-item'>
                 <h3>Capital:</h3>
-                <span class="value">{{ 0.capital }}</span>
+                <span class='value'>{{0.capital}}</span>
             </li>
-            <li class="country-data-item">
+            <li class='country-data-item'>
                 <h3>Population:</h3>
-                <span class="value">{{0.population}}</span>
+                <span class='value'>{{0.population}}</span>
             </li>
-            <li class="country-data-item">
+            <li class='country-data-item'>
                 <h3>Languages:</h3>
-                    {{#each 0.languages}}
+                {{#each 0.languages}}
                     <ul>
-                        <li class="language">{{name}}</li>
+                        <li class='language'>{{name}}</li>
                     </ul>
-                    {{/each}}
+                {{/each}}
             </li>
         </ul>
     </div>
     <div>
-        <img src="{{0.flags.png}}" alt="flag" class="country-flag">
+        <img src='{{0.flags.png}}' alt='flag' class='country-flag' />
     </div>
-    </div>
+</div>
